@@ -169,6 +169,14 @@ main {
   color: var(--bitcoin-orange);
 }
 
+.comissions-table--title {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.3rem;
+  color: var(--secondary-blue);
+}
+
 .currency-table--container {
   width: 90%;
   min-width: 230px;
@@ -240,6 +248,19 @@ main {
   margin: 15px auto 0;
   padding: 8px;
   background-color: var(--soft-orange);
+  border-radius: 8px;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: var(--warm-black);
+  font-weight: 300;
+}
+
+.comissions-table--date p {
+  width: 190px;
+  height: auto;
+  margin: 15px auto 0;
+  padding: 8px;
+  background-color: var(--secondary-blue);
   border-radius: 8px;
   font-size: 1.2rem;
   line-height: 1.5rem;
